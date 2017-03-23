@@ -1,0 +1,34 @@
+.firstPlayer {
+    background-image: url('./x.gif');
+    background-position:center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+.secondPlayer {
+    background-image: url('./o.gif');
+    background-position: center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+.board {
+    margin: 50px auto;
+    width: 300px;
+}
+.cell {
+
+    border: 2px solid black;
+    float: left;
+    height: 96px;
+    width: 96px;
+}
+.cell:hover {
+    background-color: lightgrey;
+}
+.result {
+    float: bottom;
+    text-align : center;
+    padding-top: 50px;
+}
+.head {
+    text-align : center;
+}
